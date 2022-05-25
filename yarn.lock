@@ -768,6 +768,11 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@dashdoc/react-native-system-sounds@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dashdoc/react-native-system-sounds/-/react-native-system-sounds-1.0.0.tgz#6482c8c5de2a8e8b34e4dba51862430ad4d708fb"
+  integrity sha512-sOuwcBP1MFdHKN8nwat4JJPFWfMqf37uCwshR3OO+DT1bSCT/l863oz/qYWb2GG3dEyC1yKYWY/PM/aeDVMPUA==
+
 "@eslint/eslintrc@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.3.0.tgz#29f92c30bb3e771e4a2048c95fa6855392dfac4f"

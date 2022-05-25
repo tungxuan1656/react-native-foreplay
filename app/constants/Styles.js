@@ -4,56 +4,55 @@ import {Font, FontSize} from '../assets/AppFont';
 export default {
   Text: {
     largeTitle: {
-      color: Assets.Colors.pureWhite,
+      color: Assets.Colors.largeTitle,
       fontFamily: Font.bold,
-      fontSize: FontSize.large,
+      fontSize: FontSize.xxx_large,
       // lineHeight: 30
     },
     heading1: {
-      color: Assets.Colors.white,
+      color: Assets.Colors.title,
       fontFamily: Font.bold,
-      fontSize: FontSize.large,
+      fontSize: FontSize.xx_large,
       // lineHeight: 30
     },
     heading2: {
-      color: Assets.Colors.white,
+      color: Assets.Colors.title,
       fontFamily: Font.bold,
-      fontSize: FontSize.large,
+      fontSize: FontSize.x_large,
       // lineHeight: 20
     },
     title: {
-      color: Assets.Colors.white,
+      color: Assets.Colors.title,
       fontFamily: Font.bold,
-      fontSize: FontSize.medium,
+      fontSize: FontSize.large,
       lineHeight: 18,
     },
     subTitle: {
-      color: Assets.Colors.subtitle,
+      color: Assets.Colors.title,
       fontSize: FontSize.medium,
       fontFamily: Font.medium,
-      // lineHeight: 20
+      lineHeight: 20
     },
     body: {
-      color: Assets.Colors.white,
+      color: Assets.Colors.body,
       fontFamily: Font.medium,
       fontSize: FontSize.medium,
-      // lineHeight: 20
+      lineHeight: 20
     },
     bodyDialog: {
-      color: Assets.Colors.white,
+      color: Assets.Colors.body,
       fontFamily: Font.medium,
       fontSize: FontSize.large,
-      //Chien: add line height
       lineHeight: 22,
     },
     smallBody: {
-      color: Assets.Colors.white,
+      color: Assets.Colors.body,
       fontFamily: Font.medium,
       fontSize: FontSize.small,
       // lineHeight: 15
     },
     readMore: {
-      color: Assets.Colors.indianred,
+      color: Assets.Colors.body,
       fontFamily: Font.bold,
     },
   },

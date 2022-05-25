@@ -1,16 +1,12 @@
 import { Store } from 'redux'
 import { appReducers } from './AppSlice'
-import createSagaMiddleware from 'redux-saga'
 import autoMergeLevel2 from 'redux-persist/es/stateReconciler/autoMergeLevel2'
 import thunk from 'redux-thunk'
 import { persistReducer, persistStore } from 'redux-persist'
 import storage from '@react-native-async-storage/async-storage'
 import { createBlacklistFilter, createWhitelistFilter } from 'redux-persist-transform-filter'
 
-// saga
-import rootSaga from './AppSaga'
 import { configureStore } from '@reduxjs/toolkit'
-const sagaMiddleware = createSagaMiddleware()
 
 function logger({ getState, dispatch }) {
 	return next => action => {
@@ -20,7 +16,7 @@ function logger({ getState, dispatch }) {
 	}
 }
 
-const middleware = [thunk, logger, sagaMiddleware]
+const middleware = [thunk, logger]
 const persistConfig = {
 	key: 'root',
 	storage,
@@ -40,7 +36,5 @@ export const store = configureStore({
   devTools: process.env.NODE_ENV !== 'production',
 	middleware: middleware,
 })
-
-sagaMiddleware.run(rootSaga)
 
 export const persistor = persistStore(store, {}, () => {})

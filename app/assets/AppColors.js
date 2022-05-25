@@ -139,4 +139,11 @@ export default {
   pureWhite: '#ffffff',
   whitesmoke: '#f5f5f5',
   yellowgreen: '#9acd32',
+  background: '#FBFDFF',
+  lightBody: '#6A6F7D',
+  body: '#495566',
+  title: '#36455A',
+  largeTitle: '#26354A',
+  textBlue: '#2F91EB',
+  backgroundBlue: '#2f87eb1a'
 }
